@@ -1,0 +1,366 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
+@font-face {
+  font-family: cairoBold;
+  src: url("./fonts/cairo-bold.ttf");
+}
+* {
+  font-family: cairoBold;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+}
+a {
+  text-decoration: none;
+}
+.containerBanner {
+  height: 100vh;
+  background-image: url("./images/iStock.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+
+.containerBanner .rowBanner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: rowBanner;
+  max-width: 50%;
+  flex-basis: 50%;
+  margin: auto;
+}
+.containerBanner .rowBanner:nth-child(2) {
+  margin-top: 200px;
+  max-width: 100%;
+  flex-basis: 100%;
+}
+.containerBanner .rowBanner:nth-child(2) p {
+  width: 50%;
+  margin: auto;
+}
+.containerBanner .rowBanner div h1 {
+  color: #e6e9ff;
+  line-height: 1.3;
+}
+.containerBanner .rowBanner div h1:nth-child(1) {
+  font-size: 40px;
+}
+.containerBanner .rowBanner div h1:nth-child(2) {
+  font-size: 40px;
+}
+.containerBanner .rowBanner div h1:nth-child(3) {
+  font-size: 70px;
+}
+.containerBanner .rowBanner div img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  transform: scale(2.5);
+}
+.containerBanner .rowBanner p {
+  color: #ddd;
+  font-size: 17px;
+  margin: auto;
+  text-align: center;
+}
+.containerBanner .rowBanner div.btn_rowBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.containerBanner .rowBanner div.btn_rowBanner a {
+  padding: 10px 20px;
+  background-color: #efe8e8;
+  color: #333;
+  font-weight: 600;
+  border-radius: 3px;
+  font-family: "Cairo", sans-serif;
+}
+.containerBanner .rowBanner div.btn_rowBanner p.btn_p_text {
+  margin-top: 20px;
+  font-family: "Cairo", sans-serif;
+  color: #e6e9ff;
+}
+.containerBanner .rowBanner div.btn_rowBanner a:hover {
+  background-color: #ddd;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .containerBanner {
+    background-size: contain;
+  }
+  .containerBanner .rowBanner div h1 {
+    color: #e6e9ff;
+  }
+  .containerBanner .rowBanner div img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    transform: scale(1);
+  }
+  .containerBanner .rowBanner div h1:nth-child(1) {
+    font-size: 30px;
+  }
+  .containerBanner .rowBanner div h1:nth-child(2) {
+    font-size: 30px;
+  }
+  .containerBanner .rowBanner div h1:nth-child(3) {
+    font-size: 30px;
+  }
+  .containerBanner .rowBanner {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+  .containerBanner .rowBanner:nth-child(2) {
+    margin-top: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+  .containerBanner .rowBanner:nth-child(2) p {
+    width: 100%;
+    margin: auto;
+    text-align: right;
+  }
+  .containerBanner .rowBanner p {
+    color: #ddd;
+    font-size: 13px;
+    margin: auto;
+    font-weight: 600;
+  }
+  .containerBanner .rowBanner div.btn_rowBanner a {
+    padding: 10px 20px;
+    font-size: 13px;
+  }
+  .containerBanner .rowBanner div.btn_rowBanner p.btn_p_text {
+    margin-top: 10px;
+    font-weight: 100;
+    text-align: center;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .containerBanner {
+    background-size: contain;
+  }
+  .containerBanner .rowBanner div h1 {
+    color: #e6e9ff;
+  }
+  .containerBanner .rowBanner div img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    transform: scale(1);
+  }
+  .containerBanner .rowBanner div h1:nth-child(1) {
+    font-size: 30px;
+  }
+  .containerBanner .rowBanner div h1:nth-child(2) {
+    font-size: 30px;
+  }
+  .containerBanner .rowBanner div h1:nth-child(3) {
+    font-size: 30px;
+  }
+  .containerBanner .rowBanner {
+    max-width: 90%;
+    flex-basis: 90%;
+  }
+  .containerBanner .rowBanner:nth-child(2) {
+    margin-top: 0;
+    max-width: 90%;
+    flex-basis: 90%;
+  }
+  .containerBanner .rowBanner:nth-child(2) p {
+    width: 100%;
+    text-align: right;
+    margin: 0;
+  }
+  .containerBanner .rowBanner p {
+    color: #ddd;
+    font-size: 13px;
+    margin: auto;
+    font-weight: 600;
+  }
+  .containerBanner .rowBanner div.btn_rowBanner a {
+    padding: 10px 30px;
+    font-size: 13px;
+  }
+  .containerBanner .rowBanner div.btn_rowBanner p.btn_p_text {
+    margin-top: 10px;
+    font-weight: 100;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .containerBanner {
+    background-size: cover;
+  }
+  .containerBanner .rowBanner div h1 {
+    color: #e6e9ff;
+    text-shadow: 0px 0px 3px #464445;
+  }
+  .containerBanner .rowBanner div img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    transform: scale(1.5);
+  }
+  .containerBanner .rowBanner div h1:nth-child(1) {
+    font-size: 30px;
+  }
+  .containerBanner .rowBanner div h1:nth-child(2) {
+    font-size: 30px;
+  }
+  .containerBanner .rowBanner div h1:nth-child(3) {
+    font-size: 60px;
+  }
+  .containerBanner .rowBanner {
+    max-width: 90%;
+    flex-basis: 90%;
+  }
+  .containerBanner .rowBanner:nth-child(2) {
+    margin-top: 200px;
+    max-width: 90%;
+    flex-basis: 90%;
+  }
+  .containerBanner .rowBanner:nth-child(2) p {
+    width: 100%;
+    margin: 0 20px 0 0;
+    text-align: right;
+  }
+  .containerBanner .rowBanner p {
+    color: #ddd;
+    font-size: 16px;
+    margin: auto;
+    font-weight: 600;
+  }
+  .containerBanner .rowBanner div.btn_rowBanner a {
+    padding: 10px 30px;
+    font-size: 16px;
+  }
+  .containerBanner .rowBanner div.btn_rowBanner p.btn_p_text {
+    margin-top: 10px;
+    font-weight: 100;
+    text-align: center;
+    font-size: 13px;
+    width: 100%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .containerBanner {
+    background-size: cover;
+  }
+  .containerBanner .rowBanner div h1 {
+    color: #e6e9ff;
+    text-shadow: 0px 0px 3px #464445;
+  }
+  .containerBanner .rowBanner div img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    transform: scale(2);
+  }
+  .containerBanner .rowBanner div h1:nth-child(1) {
+    font-size: 50px;
+  }
+  .containerBanner .rowBanner div h1:nth-child(2) {
+    font-size: 50px;
+  }
+  .containerBanner .rowBanner div h1:nth-child(3) {
+    font-size: 90px;
+  }
+  .containerBanner .rowBanner {
+    max-width: 80%;
+    flex-basis: 80%;
+  }
+  .containerBanner .rowBanner:nth-child(2) {
+    margin-top: 200px;
+    max-width: 80%;
+    flex-basis: 80%;
+  }
+  .containerBanner .rowBanner:nth-child(2) p {
+    width: 35%;
+    margin: 0 20px 0 0;
+    text-align: right;
+  }
+  .containerBanner .rowBanner p {
+    color: #ddd;
+    font-size: 16px;
+    margin: auto;
+    font-weight: 600;
+  }
+  .containerBanner .rowBanner div.btn_rowBanner a {
+    padding: 10px 100px;
+    font-size: 16px;
+  }
+  .containerBanner .rowBanner div.btn_rowBanner p.btn_p_text {
+    margin-top: 10px;
+    font-weight: 100;
+    text-align: center;
+    font-size: 13px;
+    width: 100%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .containerBanner {
+    background-size: cover;
+  }
+  .containerBanner .rowBanner div h1 {
+    color: #e6e9ff;
+    text-shadow: 0px 0px 3px #464445;
+  }
+  .containerBanner .rowBanner div img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    transform: scale(2.5);
+  }
+  .containerBanner .rowBanner div h1:nth-child(1) {
+    font-size: 50px;
+  }
+  .containerBanner .rowBanner div h1:nth-child(2) {
+    font-size: 50px;
+  }
+  .containerBanner .rowBanner div h1:nth-child(3) {
+    font-size: 90px;
+  }
+  .containerBanner .rowBanner {
+    max-width: 80%;
+    flex-basis: 80%;
+  }
+  .containerBanner .rowBanner:nth-child(2) {
+    margin-top: 200px;
+    max-width: 80%;
+    flex-basis: 80%;
+  }
+  .containerBanner .rowBanner:nth-child(2) p {
+    width: 35%;
+    margin: 0 20px 0 0;
+    text-align: right;
+  }
+  .containerBanner .rowBanner p {
+    color: #ddd;
+    font-size: 16px;
+    margin: auto;
+    font-weight: 600;
+  }
+  .containerBanner .rowBanner div.btn_rowBanner a {
+    padding: 10px 100px;
+    font-size: 16px;
+  }
+  .containerBanner .rowBanner div.btn_rowBanner p.btn_p_text {
+    margin-top: 10px;
+    font-weight: 100;
+    text-align: center;
+    font-size: 13px;
+    width: 100%;
+  }
+}
