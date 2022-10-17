@@ -15,7 +15,7 @@ a {
 }
 .containerBanner {
   height: 100vh;
-  background-image: url("./images/iStock.jpg");
+  background-image: url("./images/iStock.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px;
@@ -24,8 +24,8 @@ a {
 .containerBanner .rowBanner {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  flex-direction: rowBanner;
+  align-items: flex-start;
+  flex-direction: row;
   max-width: 50%;
   flex-basis: 50%;
   margin: auto;
@@ -51,6 +51,13 @@ a {
 }
 .containerBanner .rowBanner div h1:nth-child(3) {
   font-size: 70px;
+}
+.containerBanner .rowBanner div h3 {
+  font-size: 30px;
+  color: #008000;
+}
+.containerBanner .rowBanner div h3 span {
+  color: #0000ff;
 }
 .containerBanner .rowBanner div img {
   width: 150px;
@@ -102,22 +109,25 @@ a {
     transform: scale(1);
   }
   .containerBanner .rowBanner div h1:nth-child(1) {
-    font-size: 30px;
+    font-size: 20px;
   }
   .containerBanner .rowBanner div h1:nth-child(2) {
-    font-size: 30px;
+    font-size: 20px;
   }
   .containerBanner .rowBanner div h1:nth-child(3) {
     font-size: 30px;
   }
   .containerBanner .rowBanner {
-    max-width: 100%;
-    flex-basis: 100%;
+    max-width: 90%;
+    flex-basis: 90%;
+  }
+  .containerBanner .rowBanner div h3 {
+    font-size: 20px;
   }
   .containerBanner .rowBanner:nth-child(2) {
-    margin-top: 0;
-    max-width: 100%;
-    flex-basis: 100%;
+    margin-top: 50px;
+    max-width: 90%;
+    flex-basis: 90%;
   }
   .containerBanner .rowBanner:nth-child(2) p {
     width: 100%;
@@ -168,8 +178,11 @@ a {
     max-width: 90%;
     flex-basis: 90%;
   }
+  .containerBanner .rowBanner div h3 {
+    font-size: 20px;
+  }
   .containerBanner .rowBanner:nth-child(2) {
-    margin-top: 0;
+    margin-top: 200px;
     max-width: 90%;
     flex-basis: 90%;
   }
@@ -222,8 +235,11 @@ a {
     max-width: 90%;
     flex-basis: 90%;
   }
+  .containerBanner .rowBanner div h3 {
+    font-size: 25px;
+  }
   .containerBanner .rowBanner:nth-child(2) {
-    margin-top: 200px;
+    margin-top: 300px;
     max-width: 90%;
     flex-basis: 90%;
   }
@@ -276,13 +292,16 @@ a {
     font-size: 90px;
   }
   .containerBanner .rowBanner {
-    max-width: 80%;
-    flex-basis: 80%;
+    max-width: 90%;
+    flex-basis: 90%;
+  }
+  .containerBanner .rowBanner div h3 {
+    font-size: 30px;
   }
   .containerBanner .rowBanner:nth-child(2) {
     margin-top: 200px;
-    max-width: 80%;
-    flex-basis: 80%;
+    max-width: 90%;
+    flex-basis: 90%;
   }
   .containerBanner .rowBanner:nth-child(2) p {
     width: 35%;
@@ -336,8 +355,11 @@ a {
     max-width: 80%;
     flex-basis: 80%;
   }
+  .containerBanner .rowBanner div h3 {
+    font-size: 30px;
+  }
   .containerBanner .rowBanner:nth-child(2) {
-    margin-top: 200px;
+    margin-top: 300px;
     max-width: 80%;
     flex-basis: 80%;
   }
