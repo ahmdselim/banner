@@ -15,7 +15,7 @@ a {
 }
 .containerBanner {
   height: 100vh;
-  background-image: url("./images/iStock.png");
+  background-image: url("./images/iStock.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px;
@@ -24,7 +24,7 @@ a {
 .containerBanner .rowBanner {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
   flex-direction: row;
   max-width: 50%;
   flex-basis: 50%;
@@ -54,10 +54,10 @@ a {
 }
 .containerBanner .rowBanner div h3 {
   font-size: 30px;
-  color: #008000;
+  color: #d44d00;
 }
 .containerBanner .rowBanner div h3 span {
-  color: #0000ff;
+  color: #0315af;
 }
 .containerBanner .rowBanner div img {
   width: 150px;
@@ -66,7 +66,7 @@ a {
   transform: scale(2.5);
 }
 .containerBanner .rowBanner p {
-  color: #ddd;
+  color: #fff;
   font-size: 17px;
   margin: auto;
   text-align: center;
@@ -91,7 +91,7 @@ a {
   color: #e6e9ff;
 }
 .containerBanner .rowBanner div.btn_rowBanner a:hover {
-  background-color: #ddd;
+  background-color: #fff;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -133,21 +133,23 @@ a {
     width: 100%;
     margin: auto;
     text-align: right;
+    font-size: 11px;
   }
   .containerBanner .rowBanner p {
-    color: #ddd;
+    color: #fff;
     font-size: 13px;
     margin: auto;
     font-weight: 600;
   }
   .containerBanner .rowBanner div.btn_rowBanner a {
     padding: 10px 20px;
-    font-size: 13px;
+    font-size: 11px;
   }
   .containerBanner .rowBanner div.btn_rowBanner p.btn_p_text {
     margin-top: 10px;
     font-weight: 100;
     text-align: center;
+    font-size: 11px;
   }
 }
 
@@ -182,7 +184,7 @@ a {
     font-size: 20px;
   }
   .containerBanner .rowBanner:nth-child(2) {
-    margin-top: 200px;
+    margin-top: 100px;
     max-width: 90%;
     flex-basis: 90%;
   }
@@ -190,20 +192,22 @@ a {
     width: 100%;
     text-align: right;
     margin: 0;
+    font-size: 11px;
   }
   .containerBanner .rowBanner p {
-    color: #ddd;
+    color: #fff;
     font-size: 13px;
     margin: auto;
     font-weight: 600;
   }
   .containerBanner .rowBanner div.btn_rowBanner a {
     padding: 10px 30px;
-    font-size: 13px;
+    font-size: 11px;
   }
   .containerBanner .rowBanner div.btn_rowBanner p.btn_p_text {
     margin-top: 10px;
     font-weight: 100;
+    font-size: 11px;
   }
 }
 
@@ -247,22 +251,23 @@ a {
     width: 100%;
     margin: 0 20px 0 0;
     text-align: right;
+    font-size: 14px;
   }
   .containerBanner .rowBanner p {
-    color: #ddd;
+    color: #fff;
     font-size: 16px;
     margin: auto;
     font-weight: 600;
   }
   .containerBanner .rowBanner div.btn_rowBanner a {
     padding: 10px 30px;
-    font-size: 16px;
+    font-size: 14px;
   }
   .containerBanner .rowBanner div.btn_rowBanner p.btn_p_text {
     margin-top: 10px;
     font-weight: 100;
     text-align: center;
-    font-size: 13px;
+    font-size: 12px;
     width: 100%;
   }
 }
@@ -306,10 +311,11 @@ a {
   .containerBanner .rowBanner:nth-child(2) p {
     width: 35%;
     margin: 0 20px 0 0;
+    font-size: 16px;
     text-align: right;
   }
   .containerBanner .rowBanner p {
-    color: #ddd;
+    color: #fff;
     font-size: 16px;
     margin: auto;
     font-weight: 600;
@@ -343,13 +349,13 @@ a {
     transform: scale(2.5);
   }
   .containerBanner .rowBanner div h1:nth-child(1) {
-    font-size: 50px;
+    font-size: 70px;
   }
   .containerBanner .rowBanner div h1:nth-child(2) {
-    font-size: 50px;
+    font-size: 70px;
   }
   .containerBanner .rowBanner div h1:nth-child(3) {
-    font-size: 90px;
+    font-size: 110px;
   }
   .containerBanner .rowBanner {
     max-width: 80%;
@@ -366,10 +372,11 @@ a {
   .containerBanner .rowBanner:nth-child(2) p {
     width: 35%;
     margin: 0 20px 0 0;
+    font-size: 14px;
     text-align: right;
   }
   .containerBanner .rowBanner p {
-    color: #ddd;
+    color: #fff;
     font-size: 16px;
     margin: auto;
     font-weight: 600;
